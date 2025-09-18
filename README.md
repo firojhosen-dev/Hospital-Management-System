@@ -3,141 +3,87 @@
 The Hospital Management System (HMS) is a complete and professional web-based solution designed to simplify the day-to-day management of hospitals, clinics, and healthcare organizations.
 This project automates and digitizes all hospital processes including Patient Registration, Doctor Management, Appointments, Pharmacy, Billing, Reporting, and Messaging.
 
-It is a multi-role system that supports:
-
-👨‍💼 Admin (full control & management)
-
-👨‍⚕️ Doctors (patient care & communication)
-
-🧑 Patients (appointments & health records)
+It is a multi-role system that supports:<br>
+👨‍💼 Admin (full control & management) <br>
+👨‍⚕️ Doctors (patient care & communication)<br>
+🧑 Patients (appointments & health records)<br>
 
 ## 📖 Why HMS is Needed?
+Managing a hospital involves multiple complex operations – from patient admission to billing and pharmacy management. Traditionally, hospitals rely on manual systems which are slow, error-prone, and inefficient.<br>
 
-Managing a hospital involves multiple complex operations – from patient admission to billing and pharmacy management. Traditionally, hospitals rely on manual systems which are slow, error-prone, and inefficient.
+A digital Hospital Management System solves these problems by:<br>
+📊 Centralizing patient data in a secure database.<br>
+🔐 Providing role-based access to admins, doctors, and patients.<br>
+💻 Offering a paperless solution for appointments, prescriptions, and reports.<br>
+⏳ Saving time and increasing efficiency of hospital staff.<br>
+💡 Helping hospitals make data-driven decisions through analytics.<br>
+🌟 Core Features (Detailed)<br>
 
-A digital Hospital Management System solves these problems by:
-
-📊 Centralizing patient data in a secure database.
-
-🔐 Providing role-based access to admins, doctors, and patients.
-
-💻 Offering a paperless solution for appointments, prescriptions, and reports.
-
-⏳ Saving time and increasing efficiency of hospital staff.
-
-💡 Helping hospitals make data-driven decisions through analytics.
-
-🌟 Core Features (Detailed)
 ## 👨‍💼 Admin Panel
-
-Manage Doctors (Add, Edit, Delete, Assign Departments).
-
-Manage Patients (Registration, History, Records).
-
-Control Appointments (Approve, Cancel, Reschedule).
-
-Manage Departments & Wards.
-
-Handle Pharmacy & Inventory.
-
-Generate Bills & Manage Payments.
-
-Add Birth, Death, and Accident Cases.
-
-Dashboard with Analytics (Charts & Reports).
-
-Role-based User Access Control (Admin/Doctor/Patient).
-
-Generate & Export Reports (PDF, Excel).
+Manage Doctors (Add, Edit, Delete, Assign Departments).<br>
+Manage Patients (Registration, History, Records).<br>
+Control Appointments (Approve, Cancel, Reschedule).<br>
+Manage Departments & Wards.<br>
+Handle Pharmacy & Inventory.<br>
+Generate Bills & Manage Payments.<br>
+Add Birth, Death, and Accident Cases.<br>
+Dashboard with Analytics (Charts & Reports).<br>
+Role-based User Access Control (Admin/Doctor/Patient).<br>
+Generate & Export Reports (PDF, Excel).<br>
 
 ## 👨‍⚕️ Doctor Panel
-
-Secure Login & Profile Management.
-
-View, Accept, or Reject Appointments.
-
-Access & Update Patient Records.
-
-Write & Update Prescriptions.
-
-Communicate with Patients & Admin via Chat Module.
-
-Track Hospital Cases (Birth/Death/Accidents).
-
-Dashboard with Today’s Appointments & Patient List.
+Secure Login & Profile Management.<br>
+View, Accept, or Reject Appointments.<br>
+Access & Update Patient Records.<br>
+Write & Update Prescriptions.<br>
+Communicate with Patients & Admin via Chat Module.<br>
+Track Hospital Cases (Birth/Death/Accidents).<br>
+Dashboard with Today’s Appointments & Patient List.<br>
 
 ## 🧑 Patient Portal
-
-Easy Registration & Login.
-
-Book Appointments with Doctors.
-
-View Admission & Treatment History.
-
-Pharmacy Purchase & Bill Payment.
-
-Download Prescriptions & Medical Reports.
-
-Chat with Doctors or Admin.
-
-Update Profile (Name, Photo).
+Easy Registration & Login.<br>
+Book Appointments with Doctors.<br>
+View Admission & Treatment History.<br>
+Pharmacy Purchase & Bill Payment.<br>
+Download Prescriptions & Medical Reports.<br>
+Chat with Doctors or Admin.<br>
+Update Profile (Name, Photo).<br>
 
 ## 💊 Pharmacy Management
-
-Add, Edit, Delete Medicines.
-
-Maintain Medicine Stock.
-
-Auto alert for low stock.
-
-Generate Invoices for Patient Purchase.
+Add, Edit, Delete Medicines.<br>
+Maintain Medicine Stock.<br>
+Auto alert for low stock.<br>
+Generate Invoices for Patient Purchase.<br>
 
 ## 💳 Billing & Payments
-
-Generate automated bills for each patient.
-
-Track pending and completed payments.
-
-Integration-ready for Online Payment Gateway (SSLCommerz, Stripe, PayPal).
-
-Export billing data to PDF/Excel.
+Generate automated bills for each patient.<br>
+Track pending and completed payments.<br>
+Integration-ready for Online Payment Gateway (SSLCommerz, Stripe, PayPal).<br>
+Export billing data to PDF/Excel.<br>
 
 ## 📈 Reports & Analytics
-
-Number of Patients (Daily, Monthly, Yearly).
-
-Number of Doctors & Appointments.
-
-Birth/Death/Accident Case Reports.
-
-Income & Expense Statistics.
-
-Department Performance Report.
-
-Graphical Dashboard (Chart.js).
+Number of Patients (Daily, Monthly, Yearly).<br>
+Number of Doctors & Appointments.<br>
+Birth/Death/Accident Case Reports.<br>
+Income & Expense Statistics.<br>
+Department Performance Report.<br>
+Graphical Dashboard (Chart.js).<br>
 
 ## 🛠️ Technology Stack
-
-Frontend:
-HTML5, CSS3, JavaScript (AJAX, Bootstrap 5)
-
-Backend:
-PHP (Core PHP + OOP Concepts)
-
-Database:
-MySQL (Relational Database with Foreign Keys)
-
-Authentication:
-PHP Sessions, Password Hashing
-
-Reports:
-FPDF (for PDF generation)
-
-Charts & Analytics:
-Chart.js
-
-Real-time Messaging:
-AJAX / WebSocket (optional upgrade)
+Frontend:<br>
+HTML5, CSS3, JavaScript (AJAX, Bootstrap 5)<br>
+Backend:<br>
+PHP (Core PHP + OOP Concepts)<br>
+Database:<br>
+MySQL (Relational Database with Foreign Keys)<br>
+Authentication:<br>
+PHP Sessions, Password Hashing<br>
+Reports:<br>
+FPDF (for PDF generation)<br>
+Charts & Analytics:<br>
+Chart.js<br>
+Real-time Messaging:<br>
+AJAX / WebSocket (optional upgrade)<br>
 
 
 ---
@@ -283,19 +229,15 @@ Hospital_Management_system/
 
 Clone this repository:
 ```
-git clone https://github.com/yourusername/hospital-management-system.git
+git clone https://github.com/firojhosen-dev/Hospital-Management-System.git
 ```
 
-Import Database:
-
-Open phpMyAdmin.
-
-Create a new database hospital_db.
-
-Import the file database.sql from /config/.
-
-Configure Database Connection:
-Edit config/config.php:
+Import Database:<br>
+Open phpMyAdmin.<br>
+Create a new database hospital_db.<br>
+Import the file database.sql from /config/.<br>
+Configure Database Connection:<br>
+Edit config/config.php:<br>
 ```
 $host = "localhost";
 $user = "root";
@@ -308,67 +250,46 @@ Run the project on XAMPP/WAMP server:
 http://localhost/hospital-management-system/
 ```
 
-Default User Credentials:
-
-Admin: admin@hms.com
- | admin123
-
-Doctor: doctor@hms.com
- | doctor123
-
-Patient: patient@hms.com
- | patient123
+## Default User Credentials:<br>
+Admin: hospitalmanagementsystemadmin@gmail.com<br>
+ | Password (154321)<br>
+Doctor: hospitalmanagementsystemdoctor@gmail.com<br>
+ | Password (123453)<br>
+Patient: hospitalmanagementsystempatient@gmail.com<br>
+ | Password (123452)<br>
 
 ## 🔐 User Roles & Permissions
-Role	Features
-Admin	Manage doctors, patients, pharmacy, billing, reports, analytics
-Doctor	Appointments, patient records, prescriptions, chat
-Patient	Book appointments, view records, pharmacy, billing, chat
+Role	Features<br>
+Admin	Manage doctors, patients, pharmacy, billing, reports, analytics<br>
+Doctor	Appointments, patient records, prescriptions, chat<br>
+Patient	Book appointments, view records, pharmacy, billing, chat<br>
+
 ## 📈 Future Scope
-
-AI-based Appointment Recommendation.
-
-Telemedicine (Video/Audio Consultation using WebRTC).
-
-Mobile App version (Flutter/React Native).
-
-Online Payment Gateway (SSLCommerz, Stripe, PayPal).
-
-Push Notifications (Firebase).
-
-Cloud Deployment (AWS, Azure, Vercel).
-
-Multi-language Support (English, Bangla).
+AI-based Appointment Recommendation.<br>
+Telemedicine (Video/Audio Consultation using WebRTC).<br>
+Mobile App version (Flutter/React Native).<br>
+Online Payment Gateway (SSLCommerz, Stripe, PayPal).<br>
+Push Notifications (Firebase).<br>
+Cloud Deployment (AWS, Azure, Vercel).<br>
+Multi-language Support (English, Bangla).<br>
 
 ## 📸 Demo Screenshots
-
-(Add your screenshots here for better presentation)
-
-Dashboard Overview
-
-Admin Panel
-
-Doctor’s Appointment List
-
-Patient Booking Page
-
-Pharmacy Management
-
-Billing & Reports
+(Add your screenshots here for better presentation)<br>
+Dashboard Overview<br>
+Admin Panel<br>
+Doctor’s Appointment List<br>
+Patient Booking Page<br>
+Pharmacy Management<br>
+Billing & Reports<br>
 
 ## 🤝 Contribution Guidelines
-
-We welcome contributions!
-
-Fork this repository.
-
-Create a new branch.
-
-Make your changes.
-
-Submit a Pull Request.
+We welcome contributions!<br>
+Fork this repository.<br>
+Create a new branch.<br>
+Make your changes.<br>
+Submit a Pull Request.<br>
 
 ## 📜 License
-
 This project is licensed under the MIT License – free for personal and commercial use.
+
 # Allah Hafiz
