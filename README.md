@@ -252,11 +252,11 @@ http://localhost/hospital-management-system/
 
 ## Default User Credentials:<br>
 Admin: hospitalmanagementsystemadmin@gmail.com<br>
- | Password (154321)<br>
-Doctor: hospitalmanagementsystemdoctor@gmail.com<br>
- | Password (123453)<br>
+ | Password (123451)<br>
 Patient: hospitalmanagementsystempatient@gmail.com<br>
  | Password (123452)<br>
+Doctor: hospitalmanagementsystemdoctor@gmail.com<br>
+ | Password (123453)<br>
 
 ## 🔐 User Roles & Permissions
 Role	Features<br>
@@ -293,3 +293,4 @@ Submit a Pull Request.<br>
 This project is licensed under the MIT License – free for personal and commercial use.
 
 # Allah Hafiz
+
